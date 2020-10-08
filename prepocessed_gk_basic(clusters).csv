@@ -1,0 +1,115 @@
+,Player,Nation,Pos,Squad,League,Value,Value_num,Age,GA90,Save%,Expected./90,CS%,SoTA/90,Basic_Cluster
+0,Aaron Ramsdale,ENG,GK,Bournemouth,England,£11.25m,11250000,21,1.68,0.678,0,13.5,4.783783784,1
+1,Aitor Fern√°ndez,ESP,GK,Levante,Spain, £7.20m,7200000,28,1.42,0.761,0.23,13.9,5.583333333,2
+2,Alban Lafont,FRA,GK,Nantes,France, £9.90m,9900000,20,1.07,0.714,-0.13,37,3.37037037,3
+3,Alessio Cragno,ITA,GK,Cagliari,Italy, £14.40m,14400000,25,1.31,0.767,0.23,18.8,5.375,2
+4,Alex McCarthy,ENG,GK,Southampton,England,£3.60m,3600000,29,1.25,0.691,0.22,25,3.928571429,0
+5,Alex Meret,ITA,GK,Napoli,Italy,£25.20m,25200000,22,1.52,0.632,-0.2,14.3,3.454545455,0
+6,√Ålex Remiro,ESP,GK,Real Sociedad,Spain, £10.80m,10800000,24,1.28,0.713,-0.15,24,3.48,0
+7,Alexander N√ºbel,GER,GK,Schalke 04,Germany, £8.55m,8550000,22,1.56,0.684,-0.03,23.1,4.384615385,0
+8,Alexander Schwolow,GER,GK,Freiburg,Germany,£6.30m,6300000,27,1.38,0.746,-0.03,16.7,4.75,2
+9,Alexandre Oukidja,ALG,GK,Metz,France, £1.44m,1440000,31,1.17,0.78,0.15,29.6,4.703703704,2
+10,Alfred Gomis,SEN,GK,Dijon,France,£2.16m,2160000,25,1.11,0.771,0.19,31.6,4.368421053,2
+11,Alisson,BRA,GK,Liverpool,England,£64.80m,64800000,26,0.81,0.722,0.03,44.8,2.724137931,3
+12,Andrea Consigli,ITA,GK,Sassuolo,Italy, £2.52m,2520000,32,1.77,0.657,-0.07,16.1,4.516129032,1
+13,Andreas Luthe,GER,GK,Augsburg,Germany, £360Th.,360000,32,1.2,0.657,0.3,30,3.5,0
+14,Angus Gunn,ENG,GK,Southampton,England,£5.85m,5850000,23,2.5,0.566,-0.76,20,5.3,1
+15,Anthony Lopes,POR,GK,Lyon,France, £15.75m,15750000,28,0.96,0.729,0.08,30.8,3.269230769,3
+16,Baptiste Reynet,FRA,GK,Toulouse,France, £2.16m,2160000,28,2.17,0.589,-0.31,9.1,4.869565217,1
+17,Bart≈Çomiej DrƒÖgowski,POL,GK,Fiorentina,Italy, £9.90m,9900000,21,1.39,0.718,0,25.8,4.225806452,2
+18,Ben Foster,ENG,GK,Watford,England,£1.08m,1080000,36,1.68,0.663,-0.07,23.7,4.368421053,0
+19,Benjamin Lecomte,FRA,GK,Monaco,France, £9.90m,9900000,28,1.57,0.712,-0.07,25,4.714285714,2
+20,Beno√Æt Costil,FRA,GK,Bordeaux,France, £3.60m,3600000,32,1.21,0.698,-0.07,21.4,3.785714286,0
+21,Bernd Leno,GER,GK,Arsenal,England,£25.20m,25200000,27,1.33,0.776,0.22,23.3,4.9,2
+22,David de Gea,ESP,GK,Manchester Utd,England,£36.00m,36000000,28,0.95,0.736,0.07,34.2,3.289473684,3
+23,David Ospina,COL,GK,Napoli,Italy, £2.52m,2520000,30,1.04,0.717,0.06,23.5,3.117647059,3
+24,David Soria,ESP,GK,Getafe,Spain, £13.05m,13050000,26,0.97,0.686,0.05,39.5,2.684210526,3
+25,Dean Henderson,ENG,GK,Sheffield Utd,England,£13.05m,13050000,22,0.92,0.752,0.13,36.1,3.583333333,3
+26,Diego L√≥pez,ESP,GK,Espanyol,Spain, £720Th.,720000,37,1.62,0.66,-0.16,11.1,4.25,1
+27,Ederson,BRA,GK,Manchester City,England,£50.40m,50400000,25,0.82,0.728,0.07,45.7,2.628571429,3
+28,Edouard Mendy,SEN,GK,Rennes,France, £6.30m,6300000,27,0.79,0.784,0.07,37.5,3.083333333,3
+29,Emil Audero,ITA,GK,Sampdoria,Italy, £10.80m,10800000,22,1.67,0.669,-0.09,25,4.444444444,0
+30,Etrit Berisha,ALB,GK,SPAL,Italy, £2.16m,2160000,30,1.58,0.754,0.09,11.5,5.461538462,2
+31,Fernando Pacheco,ESP,GK,Alav√©s,Spain, £13.05m,13050000,27,1.41,0.685,-0.13,22.2,3.407407407,0
+32,Florian Kastenmeier,GER,GK,D√ºsseldorf,Germany, £585Th.,585000,22,1.82,0.618,-0.21,11.8,4.470588235,1
+33,Florian M√ºller,GER,GK,Mainz 05,Germany, £2.16m,2160000,21,2,0.641,-0.13,16.7,4.923076923,1
+34,Gabriel,BRA,GK,Lecce,Italy, £720Th.,720000,26,2.28,0.696,0.23,5.9,6.382352941,1
+35,Gautier Larsonneur,FRA,GK,Brest,France, £4.95m,4950000,22,1.28,0.758,0.25,25.9,4.740740741,2
+36,Ger√≥nimo Rulli,ARG,GK,Montpellier,France, £7.20m,7200000,27,1.08,0.786,0.05,32,4.48,2
+37,Gianluigi Donnarumma,ITA,GK,Milan,Italy, £44.55m,44550000,20,1.18,0.716,0.13,33.3,3.722222222,3
+38,Hugo Lloris,FRA,GK,Tottenham,England,£13.05m,13050000,32,1.05,0.796,0.36,28.6,4.428571429,2
+39,Ionu»õ Radu,ROU,GK,Genoa,Italy, £8.55m,8550000,22,2.06,0.674,-0.14,11.8,5.235294118,1
+40,Iv√°n Cu√©llar,ESP,GK,Legan√©s,Spain, £585Th.,585000,35,1.22,0.677,-0.13,29.6,3.666666667,0
+41,Jan Oblak,SVN,GK,Atl√©tico Madrid,Spain, £72.00m,72000000,26,0.72,0.771,0.03,44.7,2.763157895,3
+42,Jasper Cillessen,NED,GK,Valencia,Spain, £13.05m,13050000,30,1.29,0.765,-0.04,20.8,4.25,2
+43,Jaume Dom√©nech,ESP,GK,Valencia,Spain, £5.40m,5400000,28,1.56,0.725,-0.02,21.4,5.333333333,2
+44,Jesse Joronen,FIN,GK,Brescia,Italy, £3.60m,3600000,26,2.03,0.709,0.16,17.2,5.931034483,2
+45,Ji≈ô√≠ Pavlenka,CZE,GK,Werder Bremen,Germany, £5.85m,5850000,27,2.03,0.612,-0.46,12.1,5.151515152,1
+46,Joel Robles,ESP,GK,Betis,Spain, £5.40m,5400000,29,1.5,0.686,-0.07,15.2,3.575757576,0
+47,Jordan Pickford,ENG,GK,Everton,England,£25.20m,25200000,25,1.47,0.634,-0.13,23.7,3.815789474,0
+48,Jordi Masip,ESP,GK,Valladolid,Spain, £4.32m,4320000,30,1.11,0.727,0.18,31.4,3.457142857,3
+49,Juan Musso,ARG,GK,Udinese,Italy, £10.80m,10800000,25,1.34,0.769,0.07,36.8,4.894736842,2
+50,Juan Soriano,ESP,GK,Legan√©s,Spain,£1.44m,1440000,21,1.64,0.618,-0.13,9.1,3.090909091,0
+51,Karlo Letica,CRO,GK,SPAL,Italy, £900Th.,900000,22,2.9,0.561,-0.53,0,6.6,1
+52,Kasper Schmeichel,DEN,GK,Leicester City,England,£8.55m,8550000,32,1.08,0.738,0.1,34.2,3.315789474,3
+53,Kepa Arrizabalaga,ESP,GK,Chelsea,England,£28.80m,28800000,24,1.42,0.545,-0.29,24.2,3,0
+54,Kevin Trapp,GER,GK,Eint Frankfurt,Germany, £7.20m,7200000,29,1.73,0.644,-0.19,18.2,4.727272727,1
+55,Keylor Navas,CRC,GK,Paris S-G,France, £7.20m,7200000,32,0.86,0.723,-0.07,52.4,3.095238095,3
+56,Koen Casteels,BEL,GK,Wolfsburg,Germany, £9.45m,9450000,27,1.46,0.673,-0.05,19.2,4,0
+57,Leopold Zingerle,GER,GK,Paderborn 07,Germany, £1.08m,1080000,25,2.04,0.633,0.06,17.9,5.25,1
+58,Ludovic Butelle,FRA,GK,Angers,France, £225Th.,225000,36,1.23,0.628,-0.26,42.3,3,0
+59,Luigi Sepe,ITA,GK,Parma,Italy, £3.60m,3600000,28,1.56,0.745,0.03,14.7,5.411764706,2
+60,Luk√°≈° Hr√°deck√Ω,FIN,GK,Leverkusen,Germany, £7.20m,7200000,29,1.29,0.693,0.14,29.4,4.029411765,0
+61,≈Åukasz Fabia≈Ñski,POL,GK,West Ham,England,£2.88m,2880000,34,1.45,0.684,-0.08,20,3.92,0
+62,≈Åukasz Skorupski,POL,GK,Bologna,Italy, £4.95m,4950000,28,1.73,0.678,-0.16,5.4,4.864864865,1
+63,Manolo Reina,ESP,GK,Mallorca,Spain, £270Th.,270000,34,1.67,0.713,-0.02,13.9,4.555555556,2
+64,Manuel Neuer,GER,GK,Bayern Munich,Germany, £13.05m,13050000,33,0.94,0.748,0.08,45.5,3.363636364,3
+65,Marc-Andr√© ter Stegen,GER,GK,Barcelona,Spain, £64.80m,64800000,27,1,0.727,-0.03,38.9,3.055555556,3
+66,Marco Silvestri,ITA,GK,Hellas Verona,Italy, £4.32m,4320000,28,1.23,0.757,0.01,25.7,4.228571429,2
+67,Mark Flekken,NED,GK,Freiburg,Germany, £855Th.,855000,26,1.4,0.8,0.23,30,7,2
+68,Marko Dmitroviƒá,SRB,GK,Eibar,Spain, £8.55m,8550000,27,1.46,0.584,-0.17,28.6,3.228571429,0
+69,Martin D√∫bravka,SVK,GK,Newcastle Utd,England,£4.95m,4950000,30,1.53,0.705,0.26,28.9,5,2
+70,Mathew Ryan,AUS,GK,Brighton,England,£7.20m,7200000,27,1.42,0.683,0.07,23.7,4.315789474,0
+71,Mattia Perin,ITA,GK,Genoa,Italy, £7.20m,7200000,26,1.81,0.626,0.01,23.8,4.714285714,1
+72,Matz Sels,BEL,GK,Strasbourg,France, £5.85m,5850000,27,1.19,0.726,0.02,29.6,3.518518519,3
+73,Miguel √Ångel Moy√°,ESP,GK,Real Sociedad,Spain, £1.08m,1080000,35,1.23,0.686,-0.15,23.1,3.923076923,0
+74,Mike Maignan,FRA,GK,Lille,France, £15.75m,15750000,23,0.96,0.705,0.01,42.9,2.785714286,3
+75,Nick Pope,ENG,GK,Burnley,England,£8.55m,8550000,27,1.32,0.711,-0.06,39.5,4.184210526,3
+76,Oliver Baumann,GER,GK,Hoffenheim,Germany, £4.95m,4950000,29,1.63,0.692,-0.16,23.3,4.766666667,0
+77,Pau L√≥pez,ESP,GK,Roma,Italy, £17.10m,17100000,24,1.41,0.697,-0.07,15.6,3.8125,0
+78,Paul Bernardoni,FRA,GK,N√Æmes,France, £4.95m,4950000,22,1.55,0.667,-0.16,24,4.08,0
+79,Paulo Gazzaniga,ARG,GK,Tottenham,England,£2.52m,2520000,27,1.45,0.709,0.01,11.8,4.388888889,2
+80,Pepe Reina,ESP,GK,Aston Villa,England,£585Th.,585000,36,1.67,0.64,-0.14,16.7,4.166666667,1
+81,P√©ter Gul√°csi,HUN,GK,RB Leipzig,Germany, £8.55m,8550000,29,1.06,0.726,0.12,31.3,3.65625,3
+82,Pierluigi Gollini,ITA,GK,Atalanta,Italy, £11.70m,11700000,24,1.31,0.681,-0.14,24.2,3.424242424,0
+83,Predrag Rajkoviƒá,SRB,GK,Reims,France, £4.95m,4950000,23,0.67,0.798,0.33,44.4,3.111111111,3
+84,Rafa≈Ç Gikiewicz,POL,GK,Union Berlin,Germany, £1.08m,1080000,31,1.64,0.681,-0.06,24.2,4.848484848,0
+85,R√©gis Gurtner,FRA,GK,Amiens,France, £900Th.,900000,32,1.79,0.65,-0.28,17.9,5,1
+86,Robin Olsen,SWE,GK,Cagliari,Italy, £5.85m,5850000,29,1.42,0.759,0,23.5,4.882352941,2
+87,Robin Zentner,GER,GK,Mainz 05,Germany, £2.88m,2880000,24,1.86,0.655,-0.11,13.6,5.136363636,1
+88,Roman B√ºrki,SUI,GK,Dortmund,Germany, £9.90m,9900000,28,1.3,0.602,-0.07,41.9,3,0
+89,Rub√©n,ESP,GK,Osasuna,Spain, £495Th.,495000,35,1.36,0.588,-0.26,27.8,2.684210526,0
+90,Rub√©n Blanco,ESP,GK,Celta Vigo,Spain, £7.20m,7200000,24,1.31,0.698,-0.07,30.3,3.818181818,0
+91,Rui Patr√≠cio,POR,GK,Wolves,England,£14.40m,14400000,31,1.05,0.675,0.02,34.2,3.157894737,3
+92,Rui Silva,POR,GK,Granada,Spain, £3.60m,3600000,25,1.2,0.721,0.01,34.3,3.885714286,3
+93,R√∫nar Alex R√∫narsson,ISL,GK,Dijon,France, £1.08m,1080000,24,1.7,0.63,-0.29,0,4.181818182,1
+94,Rune Jarstein,NOR,GK,Hertha BSC,Germany, £720Th.,720000,34,1.63,0.702,-0.19,31,4.517241379,0
+95,Salvatore Sirigu,ITA,GK,Torino,Italy, £5.85m,5850000,32,1.78,0.709,0.11,19.4,5.25,2
+96,Samir Handanoviƒá,SVN,GK,Inter,Italy, £4.32m,4320000,35,0.91,0.722,0.04,37.1,3.085714286,3
+97,Sergio Asenjo,ESP,GK,Villarreal,Spain, £8.55m,8550000,30,1.21,0.746,-0.01,32.4,4.176470588,3
+98,Sergio Herrera,ESP,GK,Osasuna,Spain, £1.08m,1080000,26,1.47,0.671,0.03,38.9,4.157894737,0
+99,St√©phane Ruffier,FRA,GK,Saint-√âtienne,France, £2.16m,2160000,32,1.82,0.606,-0.26,13.6,4.272727273,1
+100,Steve Mandanda,FRA,GK,Marseille,France, £2.16m,2160000,34,1.02,0.747,0.11,40.7,3.37037037,3
+101,Thibaut Courtois,BEL,GK,Real Madrid,Spain, £43.20m,43200000,27,0.59,0.789,0.08,52.9,2.794117647,3
+102,Thomas Strakosha,ALB,GK,Lazio,Italy, £18.00m,18000000,24,1.11,0.759,0.12,28.9,3.815789474,3
+103,Tim Krul,NED,GK,Norwich City,England,£3.60m,3600000,31,1.89,0.656,-0.01,13.9,5.25,1
+104,Timo Horn,GER,GK,K√∂ln,Germany, £3.60m,3600000,26,2.03,0.572,-0.41,17.6,4.470588235,1
+105,Tom Heaton,ENG,GK,Aston Villa,England,£4.32m,4320000,33,1.76,0.677,-0.09,20,4.95,1
+106,Tom√°≈° Koubek,CZE,GK,Augsburg,Germany, £3.15m,3150000,26,2.12,0.582,-0.17,16.7,5.083333333,1
+107,Tom√°≈° Vacl√≠k,CZE,GK,Sevilla,Spain, £13.05m,13050000,30,0.95,0.698,-0.14,42.4,2.909090909,3
+108,Unai Sim√≥n,ESP,GK,Athletic Club,Spain, £14.40m,14400000,22,0.87,0.767,0.29,35.3,3.029411765,3
+109,Vicente Guaita,ESP,GK,Crystal Palace,England,£3.60m,3600000,32,1.2,0.714,0.21,28.6,4.2,2
+110,Walter Ben√≠tez,ARG,GK,Nice,France, £7.20m,7200000,26,1.38,0.752,0.4,15.4,4.961538462,2
+111,Wojciech Szczƒôsny,POL,GK,Juventus,Italy, £28.80m,28800000,29,1.15,0.792,0.06,37.9,4.137931034,3
+112,Yann Sommer,SUI,GK,M'Gladbach,Germany, £8.55m,8550000,30,1.18,0.743,0.13,20.6,4.470588235,2
+113,Zack Steffen,USA,GK,D√ºsseldorf,Germany, £5.40m,5400000,24,2.12,0.632,-0.19,11.8,5.588235294,1
