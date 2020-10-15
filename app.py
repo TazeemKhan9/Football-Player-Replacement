@@ -7,12 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1Kv7gVmW1opo7a61zBj6wi6Vs3N9zxvDH
 """
 
-!pip install Streamlit
-
-!pip install pyngrok
-
-from pyngrok import ngrok
-
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
 # import streamlit as st
@@ -605,64 +599,4 @@ from pyngrok import ngrok
 # if __name__ == '__main__':
 # 	main()
 
-!streamlit run app.py &>/dev/null&
-
-public_url = ngrok.connect(port='8501')
-public_url
-
-!pgrep streamlit
-
-!pip freeze>requirements.txt
-
-def gk_replacement_basic(Player, age, value):
-  
-  cluster_number=int(gk_search[gk_search['Player']==Player]['Basic_Cluster'])
-  
-  if cluster_number==3:
-  
-    search_df= gk_search.query('(Basic_Cluster == 3 or Basic_Cluster == 2) and Age <= @age and Value_num <= @value' )
-  
-  elif cluster_number==2:
-    search_df= gk_search.query('(Basic_Cluster == 3 or Basic_Cluster == 2) and Age <= @age and Value_num <= @value' )
-    
-  elif cluster_number==0:
-    search_df= gk_search.query('(Basic_Cluster == 3 or Basic_Cluster == 2) and Age <= @age and Value_num <= @value')
-    
-  elif cluster_number==1:
-    search_df= gk_search.query('(Basic_Cluster == 3 or Basic_Cluster == 2 or Basic_Cluster == 1) and Age < @age and Value_num <= @value' )
-  return search_df
-
-
-def gk_replacement_advance(Player, age, value):
-  
-  Advance_Cluster_number=int(gk_advance_search[gk_advance_search['Player']==Player]['Advance_Cluster'])
-  
-  if Advance_Cluster_number==0:
-  
-    search_df= gk_advance_search.query('Advance_Cluster == 0 and Age <= @age and Value_num <= @value' )
-  
-  elif Advance_Cluster_number==1:
-  
-    search_df= gk_advance_search.query('Advance_Cluster == 1 and Age <= @age and Value_num <= @value' )
-    
-  elif Advance_Cluster_number==2:
-  
-    search_df= gk_advance_search.query('Advance_Cluster == 2 and Age <= @age and Value_num <= @value' )
-  
-  return search_df
-
-
-result_advance.drop(['Nation','Value','Value_num','Pos','Squad','League','Age'],inplace=True,axis=1)
-
-result_basic['Basic_Cluster']=result_basic['Basic_Cluster'].replace(to_replace =[0,1,2,3],value =["Poor","Underperforming","Good","World Class"])
-
-result_advance['Advance_Cluster']=result_advance['Advance_Cluster'].replace(to_replace =[0,1,2],value =["Ball Playing","Defensive","Mix"])
-
-output_df = pd.merge(result_basic,result_advance, how='inner', on='Player')
-
-output_df
-
-output_df[['Player','Nation','Pos','Value','Value_num','Squad','Age','Basic_Cluster','Advance_Cluster']]
-
-!pip3 freeze > requirements.txt
 
