@@ -1,8 +1,4 @@
- -*- coding: utf-8 -*-
-"""app.ipynb
 
-
-"""
 
  #Commented out IPython magic to ensure Python compatibility.
  %%writefile app.py
