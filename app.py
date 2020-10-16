@@ -417,11 +417,14 @@ def main():
 			gk_search=load_data(url1,1000)
 			gk_advance=load_data(url2,1000)
 			search_df=gk_replacement_basic(gk_search,player_select,Age,val)
-			advance_data=load_data(url2,1000)
 			df2=gk_replacement_advance(gk_advance,player_select,Age,val)
-			output_df = pd.merge(search_df,df2, how='inner', on='player')
+			df2.drop(['nation','value','value_num','pos','squad','league','age'],inplace=True,axis=1)
+			search_df['basic_cluster']=search_df['basic_cluster'].replace(to_replace =[0,1,2,3],value =["Poor","Underperforming","Good","World Class"])
+			df2['advance_cluster']=df2['advance_cluster'].replace(to_replace =[0,1,2],value =["Ball Playing","Defensive","Mix"])
+			output_gk = pd.merge(search_df,df2, how='inner', on='player')
+			output_gk=output_gk[['player','nation','pos','value','value_num','squad','age','basic_cluster','advance_cluster']]
 			st.subheader("The replacements are:")
-			st.dataframe(data=output_df,width=2000,height=2000)
+			st.dataframe(data=output_gk,width=2000,height=2000)
 			
 		elif user_input=='RB':
 			rb_basic=load_data(url3,1000)
