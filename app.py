@@ -1,9 +1,8 @@
+%%writefile app.py
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 import seaborn as sns
-
-## Importing Data
 url1='https://github.com/TazeemKhan9/Football-Player-Replacement/blob/main/Data/Goalkeeper/prepocessed_gk_basic.xlsx?raw=true'
 url2='https://github.com/TazeemKhan9/Football-Player-Replacement/blob/main/Data/Goalkeeper/preprocessed_gk_advance.xlsx?raw=true'
 url3='https://github.com/TazeemKhan9/Football-Player-Replacement/blob/main/Data/Right%20Back/right_back_basic.xlsx?raw=true'
@@ -30,20 +29,20 @@ url21='https://github.com/TazeemKhan9/Football-Player-Replacement/blob/main/Data
 
 
 
-## Setting Page Details
+
 PAGE_CONFIG = {"page_title":"StColab.io","page_icon":":smiley:","layout":"centered"}
 st.beta_set_page_config(**PAGE_CONFIG)
 
-## Data Loading Function
 def load_data(url,nrows):
     data = pd.read_excel(url, nrows=nrows)
-		lowercase = lambda x: str(x).lower()
+		
+
+    lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis='columns', inplace=True)
-    
+    #data[DATE_COLUMN] = pd.to_datetime(data[DATE_COLUMN])
+
     return data
 
-
-## Functions for Selecting replacements 
 def Replacement_cb(cb_search,Player, Age, Value):
 	Basic_Cluster_number=int(cb_search[cb_search['player']==Player]['basic_cluster'])
 	if Basic_Cluster_number==0:
@@ -272,7 +271,7 @@ def gk_replacement_advance(gk_advance_search,Player, Age, Value):
 
 
 
-## Website Creation
+
 def main():
 	menu = ["Home","About","Tool"]
 	choice = st.sidebar.selectbox('Menu',menu)
@@ -412,7 +411,7 @@ def main():
 		
 		data=data[mask4]
 
-
+		
 		
 		val=num
 		Age=st.number_input('Enter age')
