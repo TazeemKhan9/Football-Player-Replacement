@@ -284,10 +284,18 @@ def main():
 		color:white;
 		text-align:center;
 		
+		
+		
 		}
 		h2 {
 			text-align:center;
 			color:white;
+			vertical-align:middle;
+			font-size:small;
+			transform:translateY(25vh);
+		}
+		p{
+			transform:translateY(25vh);
 		}
 		</style>
 		'''
