@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 import seaborn as sns
+import plotly.express as px
 url1='https://github.com/TazeemKhan9/Football-Player-Replacement/blob/main/Data/Goalkeeper/prepocessed_gk_basic.xlsx?raw=true'
 url2='https://github.com/TazeemKhan9/Football-Player-Replacement/blob/main/Data/Goalkeeper/preprocessed_gk_advance.xlsx?raw=true'
 url3='https://github.com/TazeemKhan9/Football-Player-Replacement/blob/main/Data/Right%20Back/right_back_basic.xlsx?raw=true'
