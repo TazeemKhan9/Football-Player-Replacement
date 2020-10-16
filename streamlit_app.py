@@ -467,7 +467,7 @@ def main():
 			df2['advance_cluster']=df2['advance_cluster'].replace(to_replace =[0,1,2],value =["Ball Playing","Defensive","Mix"])
 			output_gk = pd.merge(search_df,df2, how='inner', on='player')
 			output_gk=output_gk[['player','nation','pos','value','value_num','squad','age','basic_cluster','advance_cluster']]
-			st.subheader("The replacements are:")
+			st.subheader("Replacements")
 			st.dataframe(data=output_gk,width=2000,height=2000)
 			
 		elif user_input=='RB':
@@ -481,7 +481,7 @@ def main():
 			result_rb_passing['advance_cluster']=result_rb_passing['advance_cluster'].replace(to_replace =[0,1,2],value =["Conservative Passing","Mix Passing","Attacking Passing"])
 			output_rb = pd.merge(result_basic,result_rb_passing, how='inner', on='player')
 			output_rb=output_rb[['player','nation','pos','value','value_num','squad','age','basic_cluster','advance_cluster']]
-			st.subheader("The replacements are:")
+			st.subheader("Replacements")
 			st.dataframe(data=output_rb,width=2000,height=2000)
 
 		elif user_input=='LB':
@@ -494,7 +494,7 @@ def main():
 			result_basic['basic_cluster']=result_basic['basic_cluster'].replace(to_replace =[2,1,0],value =["Conservative Passing","Mix Passing","Attacking Passing"])
 			output_lb = pd.merge(result_basic,result_lb_passing, how='inner', on='player')
 			output_lb=output_lb[['player','nation','pos','value','value_num','squad','age','basic_cluster','advance_cluster']]
-			st.subheader("The replacements are:")
+			st.subheader("Replacements")
 			st.dataframe(data=output_lb,width=2000,height=2000)
 
 
@@ -508,7 +508,7 @@ def main():
 			result_basic['basic_cluster']=result_basic['basic_cluster'].replace(to_replace =[1,0,2],value =["Ball Playing","Sweeper","Ball Winning"])
 			output_cb = pd.merge(result_basic,result_cb_passing, how='inner', on='player')
 			output_cb=output_cb[['player','nation','pos','value','value_num','squad','age','basic_cluster','advance_cluster']]
-			st.subheader("The replacements are:")
+			st.subheader("Replacements")
 			st.dataframe(data=output_cb,width=2000,height=2000)
 		
 
@@ -522,7 +522,7 @@ def main():
 			result_attacking_cm['advance_cluster']=result_attacking_cm['advance_cluster'].replace(to_replace =[0,1,2],value =["Least Attacking","Average Attacking","Best Attacking"])
 			output_cm = pd.merge(result_cm_passing,result_attacking_cm, how='inner', on='player')
 			output_cm=output_cm[['player','nation','pos','value','value_num','squad','age','basic_cluster','advance_cluster']]
-			st.subheader("The replacements are:")
+			st.subheader("Replacements")
 			st.dataframe(data=output_cm,width=2000,height=2000)
 		
 		elif user_input=='DM':
@@ -535,7 +535,7 @@ def main():
 			result_cdm_passing['advance_cluster']=result_cdm_passing['advance_cluster'].replace(to_replace =[0,1,2],value =["Creative Passing ","Mix Passing","Safe Passing"])
 			output_cdm = pd.merge(result_cdm_basic,result_cdm_passing, how='inner', on='player')
 			output_cdm=output_cdm[['player','nation','pos','value','value_num','squad','age','basic_cluster','advance_cluster']]
-			st.subheader("The replacements are:")
+			st.subheader("Replacement")
 			st.dataframe(data=output_cdm,width=2000,height=2000)
 
 
@@ -550,7 +550,7 @@ def main():
 			result_passing_am['advance_cluster']=result_passing_am['advance_cluster'].replace(to_replace =[0,1],value =["Good Passers","Average Passers"])
 			output_am = pd.merge(result_passing_am,result_attacking_am, how='inner', on='player')
 			output_am=output_am[['player','nation','pos','value','value_num','squad','age','basic_cluster','advance_cluster']]
-			st.subheader("The replacements are:")
+			st.subheader("Replacements")
 			st.dataframe(data=output_am,width=5000,height=2000)
 	
 
@@ -565,7 +565,7 @@ def main():
 			result_passing_lw['advance_cluster']=result_passing_lw['advance_cluster'].replace(to_replace =[0,1,2],value =["Best Attacking Passes","Best Pass Completers","Average Passers"])
 			output_lw = pd.merge(result_passing_lw,result_attacking_lw, how='inner', on='player')
 			output_lw=output_lw[['player','nation','pos','value','value_num','squad','age','basic_cluster','advance_cluster']]
-			st.subheader("The replacements are:")
+			st.subheader("Replacements")
 			st.dataframe(data=output_lw,width=2000,height=2000)
 
 
@@ -581,7 +581,7 @@ def main():
 			result_passing_rw['advance_cluster']=result_passing_rw['advance_cluster'].replace(to_replace =[0,1,2],value =["Best Overall Passers","Good Attacking Passers","Good Pass Completion"])
 			output_rw = pd.merge(result_passing_rw,result_attacking_rw, how='inner', on='player')
 			output_rw=output_rw[['player','nation','pos','value','value_num','squad','age','basic_cluster','advance_cluster']]
-			st.subheader("The replacements are")
+			st.subheader("Replacements")
 			st.dataframe(data=output_rw,width=2000,height=2000)
 		
 		elif user_input=='CF':
@@ -594,7 +594,7 @@ def main():
 			result_passing_cf['advance_cluster']=result_passing_cf['advance_cluster'].replace(to_replace =[2,0,1],value =["Best Overall Passers","Best Pass Completion","Average Passers"])
 			output_cf = pd.merge(result_passing_cf,result_attacking_cf, how='inner', on='player')
 			output_cf=output_cf[['player','nation','pos','value','value_num','squad','age','basic_cluster','advance_cluster']]
-			st.subheader("The replacements are")
+			st.subheader("Replacements")
 			st.dataframe(data=output_cf,width=2000,height=2000)
 
 
