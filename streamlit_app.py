@@ -445,15 +445,19 @@ def main():
 		data=data[mask3]
 		player_list=list(data['player'])
 		player_select=st.selectbox('Select Player',options=player_list)
-		x = st.select_slider(label='Player value',options=f)
-		num=int(x)
-		mask2=(data['value_num']<=num)
-		data=data[mask2]
 		mask4=(data['player']==str(player_select))
-		
 		data=data[mask4]
 		st.write('Selected Player')
 		st.dataframe(data=data,width=2000,height=2000)
+		
+		x = st.select_slider(label='Player value',options=f)
+		num=int(x)
+		mask2=(data['value_num']<=num)
+		
+		data=data[mask2]
+		
+		
+		
 		
 		
 		val=num
