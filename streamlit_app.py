@@ -452,7 +452,8 @@ def main():
 		mask4=(data['player']==str(player_select))
 		
 		data=data[mask4]
-
+		st.write('Selected Player')
+		st.dataframe(data=data,width=2000,height=2000)
 		
 		
 		val=num
