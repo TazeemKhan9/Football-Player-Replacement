@@ -58,9 +58,9 @@ def Replacement_cb(cb_search,Player, Age, Value):
 def Replacement_cb_passing(cb_passing_search,Player, Age, Value):
 	Advance_Cluster_number=int(cb_passing_search[cb_passing_search['player']==Player]['advance_cluster'])
 	if Advance_Cluster_number==0:
-		search_df= cb_passing_search.query('advance_cluster == 0 or advance_cluster == 1 and age <= @Age and value_num <= @Value' )
+		search_df= cb_passing_search.query('advance_cluster == 0 and age <= @Age and value_num <= @Value' )
 	elif Advance_Cluster_number==1:
-		search_df= cb_passing_search.query('advance_cluster == 1 or advance_cluster == 0  and age <= @Age and value_num <= @Value' )
+		search_df= cb_passing_search.query('advance_cluster == 1 and age <= @Age and value_num <= @Value' )
 	elif Advance_Cluster_number==2:
 		search_df= cb_passing_search.query('advance_cluster == 0 or advance_cluster == 1 and age <= @Age and value_num <= @Value' )
 	return search_df
