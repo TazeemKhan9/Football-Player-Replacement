@@ -470,6 +470,8 @@ def main():
 			df2.drop(['nation','value','value_num','pos','squad','league','age'],inplace=True,axis=1)
 			search_df['basic_cluster']=search_df['basic_cluster'].replace(to_replace =[0,1,2,3],value =["Poor","Underperforming","Good","World Class"])
 			df2['advance_cluster']=df2['advance_cluster'].replace(to_replace =[0,1,2],value =["Ball Playing","Defensive","Mix"])
+			st.subheader('Basic Replacement')
+			st.dataframe(search_df,width=2000,height=2000)
 			output_gk = pd.merge(search_df,df2, how='inner', on='player')
 			output_gk=output_gk[['player','nation','pos','value','value_num','squad','age','basic_cluster','advance_cluster']]
 			st.subheader("Replacements")
