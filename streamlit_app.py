@@ -461,7 +461,7 @@ def main():
 		
 		
 		val=num
-		Age=st.number_input('Enter age')
+		Age=st.number_input('Enter age',format=%i,step=1)
 		if user_input=='GK':
 			gk_search=load_data(url1,1000)
 			gk_advance=load_data(url2,1000)
