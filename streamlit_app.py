@@ -299,7 +299,7 @@ def main():
 		p{
 			transform:translateY(25vh);
 		}
-		button{
+		.streamlit-button.icon-button {
 		color: white;
 		background-color: #FFFFFF;
 		}
