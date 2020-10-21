@@ -300,8 +300,8 @@ def main():
 			transform:translateY(25vh);
 		}
 		.streamlit-button.icon-button {
-		color: white;
-		background-color: #FFFFFF;
+		border: 1px solid #FFFFFF;
+		background-color: #000000;
 		}
 		</style>
 		'''
