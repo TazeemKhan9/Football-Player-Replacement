@@ -301,7 +301,6 @@ def main():
 		}
 		.streamlit-button.icon-button {
 		border: 1px solid #FFFFFF;
-		background-color: #000000;
 		}
 		</style>
 		'''
