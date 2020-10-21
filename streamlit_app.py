@@ -299,6 +299,9 @@ def main():
 		p{
 			transform:translateY(25vh);
 		}
+		button{
+		color: white;
+		}
 		</style>
 		'''
 		st.markdown(page_bg_img, unsafe_allow_html=True)
@@ -307,7 +310,7 @@ def main():
 		data=load_data(url9,3000)
 		st.header('About the project')
 		st.subheader('Data')
-		st.write('We have collected multiple datasets from fbref.com which covers various facets like goalkeeping actions, defensive actions etc. Only the top 5 European leagues data have been taken for the year 2019-2020. The problem with the original Fbref datasets was that they had generalized positions into GK, DF, MF and FW. To get a deeper analysis we needed more granular data about the positions of data and that is where we used TransferMarkt.com. We scraped the exact positions and the values of all the players from there and added them into our dataset. The pre-processing included standardizing the data into per 90 mins format, and dropping other variables like wins, losses etc. (Feature Selection) which are overall team performance and do not signify the performance of an individual player. Another important criteria we have used is that we are only considering players who have played 10 matches or more. This is done so that we avoid inconsistent data which is possible for players who have played less matches.')
+		st.write('We have collected multiple datasets from fbref.com which covers various facets like goalkeeping actions, defensive actions, etc. Only the top 5 European league data have been taken for the year 2019-2020. The problem with the original fbref datasets was that they had generalized positions into GK, DF, MF, and FW. To get a deeper analysis we needed more granular data about the positions of data and that is where we used TransferMarkt.com. We scraped the exact positions and the values of all the players from there and added them to our dataset. The pre-processing included standardizing the data into per 90 mins format, and dropping other variables like wins, losses, etc. (Feature Selection) which are overall team performance and do not signify the performance of an individual player. Another important criterion we have used is that we are only considering players who have played 10 matches or more. This is done so that we avoid inconsistent data which is possible for players who have played fewer matches.')
 		og_pos=st.selectbox('Select a dataset',['GK Saving','GK Passing','Defending','Passing','Shooting','None'])
 		if og_pos=='GK Saving':
 			st.dataframe(data=pd.read_excel('https://github.com/TazeemKhan9/Football-Player-Replacement/blob/main/Original%20Data/BASIC%20GOALKEEPING%20STATS.xls.xlsx?raw=true'),width=3000,height=500)
@@ -322,7 +325,7 @@ def main():
 		 
 	     
 		st.subheader('PCA')
-		st.write('Principal Component Analysis ( PCA )is a dimension reductionality algorithm. Principal component analysis is a technique for feature extraction — so it combines our input variables in a specific linear way, then we can drop the least important variables while still retaining the most valuable parts of all of the variables. Even though there are not a lot of variables in our dataset we have used PCA because the new variables it creates are all independent of each other. In football most of the factors are dependent on each other. For example, if a player shoot more, higher is the chance he/she can score a goal. So, we used PCA so that we could retain valuable information while making the variables independent of each other. Another added benefit of PCA was that we were able to visualise the clusters using the first 2 significant principal components in a scatter plot.')
+		st.write('Principal Component Analysis (PCA)is a dimension reductional algorithm. The principal component analysis is a technique for feature extraction — so it combines our input variables in a specific linear way, then we can drop the least important variables while still retaining the most valuable parts of all of the variables. Even though there are not a lot of variables in our dataset we have used PCA because the new variables it creates are all independent of each other. In football, most of the factors are dependent on each other. For example, if a player shoots more, higher is the chance he/she can score a goal. So, we used PCA so that we could retain valuable information while making the variables independent of each other. Another added benefit of PCA was that we were able to visualize the clusters using the first 2 significant principal components in a scatter plot.')
 		
 		st.subheader('K-Means Clustering')
 		st.write('Clustering is one of the unsupervised learning techniques. We can cluster observations into the same subgroups so that observations within a subgroup are quite similar to each other and observations in different subgroups are quite different from each other. In K-Means clustering, the step that we follow are:')
@@ -330,7 +333,7 @@ def main():
 		st.write('2) Iterate until the cluster assignments stop changing. The method assigns each observation to exactly one of the K clusters')
 		st.write('3) For each K cluster, calculate the cluster mean')
 		st.write('4) Proceed through the list of observations and assign an observation to the cluster whose mean is nearest.')
-		st.write('In our tool we have made two types of clusters for each position. For example, In Goalkeeping clustering we took GK saving and GK passing datasets and performed K-means clustering independent of each other. This helps us to perform a deeper analysis on the Goalkeepers ability to prevent goals as well as thier passing style. By using these 2 clusters we can find a more accurate replacement for a goalkeeper. Below you can see the clusters for different positions based on one of thier aspects:')
+		st.write('In our tool, we have made two types of clusters for each position. For example, In Goalkeeping clustering we took GK saving and GK passing datasets and performed K-means clustering independent of each other. This helps us to perform a deeper analysis of the Goalkeepers ability to prevent goals as well as their passing style. By using these 2 clusters we can find a more accurate replacement for a goalkeeper. Below you can see the clusters for different positions based on one of their aspects')
 		
 		st.subheader("Clusters")
 		pos= st.selectbox("Select a Position",pd.unique(data['pos']))
