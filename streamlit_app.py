@@ -301,6 +301,7 @@ def main():
 		}
 		button{
 		color: white;
+		background-color: #FFFFFF;
 		}
 		</style>
 		'''
