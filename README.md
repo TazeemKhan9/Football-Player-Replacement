@@ -1,1 +1,1 @@
-# Football-Player-Replacement
+# Football-Player-Replacement [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/tazeemkhan9/football-player-replacement/main)
