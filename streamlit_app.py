@@ -30,7 +30,7 @@ url21='https://github.com/TazeemKhan9/Football-Player-Replacement/blob/main/Data
 
 
 PAGE_CONFIG = {"page_title":"StColab.io","page_icon":'⚽',"layout":"centered"}
-st.beta_set_page_config(**PAGE_CONFIG)
+st.set_page_config(**PAGE_CONFIG)
 
 def load_data(url,nrows):
     data = pd.read_excel(url, nrows=nrows)
