@@ -275,7 +275,7 @@ def main():
 	menu = ["Home","About","Tool"]
 	choice = st.sidebar.selectbox('Menu',menu)
 	if choice == 'Home':
-		st.header("Football Player Replacement")
+		st.title("Football Player Replacement")
 		st.write("A football replacement tool created using Clustering and Streamlit. Designed to help fans who're tired of watching their team's goalkeepers concede again and again.")
 		
 		page_bg_img = '''
